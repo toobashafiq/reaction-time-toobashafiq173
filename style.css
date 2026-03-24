@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.left, .right {
+  padding: 10px;
+}
+
+.left {
+  flex: 1 1 400px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 220px;
+  min-width: 200px;
+  align-self: flex-start;
+}
+
+.card {
+  background: #101a35;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 10px #00e5ff;
+  text-align: center;
+}
+
+.title {
+  color: #00e5ff;
+}
+
+#stimulus {
+  font-size: 80px;
+  font-weight: bold;
+  color: #003366;
+  margin-top: 40px;
+}
+
+#instructions {
+  font-size: 16px;
+  color: #555;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #00e5ff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: auto;
+}

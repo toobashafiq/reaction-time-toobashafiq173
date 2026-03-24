@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaction Time Lab</title>
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Left side: Stimulus -->
+  <div class="left">
+    <h2 class="title">⌨️ Reaction Time Lab</h2>
+    <div id="stimulus">-</div>
+    <p id="instructions">
+      Press "A" for Letter, "L" for Number, "Space" to reset
+    </p>
+  </div>
+
+  <!-- Right side -->
+  <div class="right">
+    <div>
+      <div class="card" id="last-rt">Last RT<br>-</div>
+      <div class="card" id="total-trials">Total Trials<br>0</div>
+      <div class="card" id="correct">Correct<br>0</div>
+      <div class="card" id="avg-rt">Avg RT<br>0 ms</div>
+    </div>
+
+    <button id="reset-btn">Reset Lab</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
